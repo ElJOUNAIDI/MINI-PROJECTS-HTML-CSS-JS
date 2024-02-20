@@ -1,0 +1,95 @@
+body{
+    background-color: #000000db;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* GRUDS*/
+.GRUDS{
+    MARGIN: AUTO;
+    width: 80%;
+}
+/* GRUDS*/
+.GRUDS .HEADER{
+    TEXT-ALIGN: CENTER;
+    FONT-FAMILY: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.GRUDS .HEADER h1{
+    margin-bottom: 10px;
+}
+/*INPT*/
+.GRUDS .INPT{
+    margin: 20px 0;
+}
+.GRUDS .INPT input{
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    outline: none;
+    width: 20%;
+}
+.GRUDS .INPT input:focus{
+    transform:scale(1.1);
+}
+.GRUDS .INPT .int1 {
+    width: 100%;
+}
+/* .GRUDS .INPT .INF input:last-child{ 
+    background-color: #ff00005e;
+}
+*/
+.GRUDS .INPT .INF #total{
+    padding: 10px;
+    background-color: #ff00005e;
+    width: 5%;
+}
+#total:before{
+    content: "TOTAL:";
+}
+button{
+    background-color: rgb(91, 4, 173);
+    color: white;
+    PADDING: 8PX;
+    BORDER-RADIUS: 20PX;
+    BORDER: NONE;
+    MARGIN-BOTTOM: 20PX;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgb(105, 6, 198);
+    letter-spacing: 1px;
+}
+.GRUDS .INPT .BTN1{
+    width: 100%;
+}
+.GRUDS  .BTN1{
+    width: 100%;
+}
+.GRUDS .INPT .SEARCH{
+    display: flex;
+    justify-content: space-around;
+}
+/*INPT*/
+/* OUTBOK */
+.OUTBOK table {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.OUTBOK table td{
+    padding: 5px;
+} 
+.OUTBOK table button{
+    margin: auto;
+}
+/* OUTBOK */

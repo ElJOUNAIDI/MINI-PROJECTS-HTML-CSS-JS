@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="GRUDS.css">
+    <title>GRUDS</title>
+</head>
+<body>
+    <div class="GRUDS">
+        <div class="HEADER">
+            <h1>GRUDS</h1>
+            <p>PRODUCT MANAGMENT SYSTEM</p>
+        </div>
+        <div class="INPT">
+            <input class="int1" type="text" placeholder="TITLE" id="title">
+            <div class="INF">
+                <input onkeyup="getTotal()" type="number" placeholder="PRICE" id="price">
+                <input onkeyup="getTotal()" type="number"placeholder="taxes" id="taxes">
+                <input onkeyup="getTotal()" type="number" placeholder="ads" id="ads">
+                <input onkeyup="getTotal()" type="number" placeholder="discount" id="discount">
+                <small id="total"></small>
+            </div>
+            <input class="int1" type="number" placeholder="COUNT" id="count">
+            <input class="int1" type="text" placeholder="CATECORY" id="catecory">
+            <button class="BTN1" id="btn1">CREATE</button>
+            <input onkeyup="search_data(this.value)" class="int1" type="text" placeholder="SEARCH" id="search">
+            <div  class="SEARCH" id="search">
+                <BUtton id="by-title" onclick="getSearch(this.id)">SEARCH BY TITLE</BUtton>
+                <BUtton id="by-category" onclick="getSearch(this.id)">SEARCH BY CATEGORY</BUtton>
+            </div>
+        </div>
+        <div id="deletall"></div>
+        <div class="OUTBOK">
+            <table>
+                <tr>
+                    <th>title</th>
+                    <th>price</th>
+                    <th>taxes</th>
+                    <th>ads</th>
+                    <th>discount</th>
+                    <th>totale</th>
+                    <th>category</th>
+                </tr>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="GRUDS.js">
+        
+    </script>
+</body>
+</html>
